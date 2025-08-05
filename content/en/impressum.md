@@ -1,86 +1,101 @@
 
 ---
-title: "Impressum - Terms and Conditions"
-linkTitle: "Impressum - Terms and Conditions"
+title: "Legal Notice (Impressum) and Privacy Statement"
+linkTitle: "Legal Notice (Impressum) and Privacy Statement"
 weight: 70
 
 type: community
 ---
 
 {{< blocks/lead color="dark" >}}
-## Impressum / Terms and Conditions
+## Impressum / Legal Notice
+
 {{< /blocks/lead >}}
-
-
 
 {{< blocks/section  color="light" >}}
 
-Since this website is hosted in Germany, we are legally bound to provide a so-called "Impressum" with legal information for this website. Check the light blue blocks for English content.
+Since Rosenpass e.V. falls under German jurisdiction, the following text will be in German.
+You can find an English summary in the light blue (light mode) or lighter grey (dark mode) blocks.
 
+Rosenpass e.V. (a German registered association) made this website and here is how to contact us for legal reasons.
 {{< /blocks/section >}}
+
 
 {{< blocks/section  color="white">}}
 
-Impressum
+Diese Seite wird betrieben durch den 
 
-Angaben gemäß § 5 TMG
-Rosenpass e.V.
-Postfach 3212
-30032
-Hannover
-Deutschland
-Kontakt:
-Telefon: +49 (0) 1522 916 9045
+#### Rosenpass e.V.
+Erste Vorsitzende: **Karolin Varner**
+Zweiter Vorsitzender: **Benjamin Lipp**
+
+Inhaltlich Verantwortlicher gemäß § 18 Abs. 2 MStV: **Karolin Varner**
+
+vertreten durch 
+**Beata-Konstanze Hubrig**
+Rechtsanwaltskanzlei Hubrig
+Husemannstraße 22
+10435 Berlin
+
+						
+			  
+			 
+	 
+		
+		   
+		
+							  
 E-Mail: impressum@rosenpass.eu
 
-EU-VAT-ID: n/a
+			  
 
-Verbraucherstreitbeilegung
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-{{< /blocks/section >}}
+#### Eintragung im Vereinsregister
+Der Rosenpass e.V. ist im Vereinsregister des **Amtsgerichtes Hannover** unter der Registernummer **VR 20 38 97** eingetragen.
 
-{{< blocks/section  color="light" >}}
-
-We are neither obliged nor willing to take part in any arbitration procedures as provided by EU regulation on consumer-related question.
-
-We are a non-commercial Free and Open Source Software project by a group of independent researchers and developers.
-
-The content of this website is published under a Creative Commons license:
-Attribution-ShareAlike 4.0 International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
 
 {{< /blocks/section >}}
 
+									 
 
 {{< blocks/lead   color="secondary">}}
-Datenschutzerklärung / Data Protection Policy Statement
+## Datenschutzerklärung / Data Protection Policy
 {{< /blocks/lead >}}
 
 
+
 {{< blocks/section  color="light" >}}
 
-Our Data Protection Policy (Datenschutzerklärung) is stated hereunto, in German, as Germany is our legal lieu de affaires. The German text is legally binding. We provide a summary for our English-speaking audience here: 
+This is Our Data Protection Policy (Datenschutzerklärung). The German text is legally binding, but here's a summary for your convenience.
 
-You may direct your inquiries regarding your personal data to impressum@rosenpass.eu.
-Please note that, whilst we endeavour to answer all inquries promptly, we are a non-commercial research project. This does not affect your right to file a complaint with the responsible Data Protection Autorities. We would, however, request that you e-mail us first in case of any complaint or uncertainty so that we may seek to resolve it ourselves.
+We aim at processing as little personal information on our visitors as technically possible. We don't have a cookie banner since we don't use cookies.
 
-We aim at processing as little personal information on our visitors as technically possible. We do not use cookie consent tools as we only use technically essential cookies and logs and delete them in due course.
-
-We have signed an Auftragsverarbeitungsvertrag (Order processing contract according to GDPR) with our hoster and direct our instructions and settings accordingly, as far as this is technically possible.
+We have signed an order processing contract according to GDPR with our hoster. They store information that is necessary to provide their services like your type of browser and time of your visit.
 
 Any third-party services, that would require the user to consent to data sharing, used on this website are clearly marked and do not activate, nor send user data, prior to that consent. We welcome any notification of unmarked services and/or behaviours that we have overlooked.
 
-The responsible contact person for any such inquiries is stated in the Datenschutzerklärung below.
+We link to third-party websites/services whose data protection policies we do not have any control or influence over. Please consult their respective data protection statements as appropriate. We do not accept any responsibility for content or data usage by external websites linked on this site.
 
-On this website, we  do link to third-party websites/services whose data protection policies we do not have any control or influence over. Please consult their respective data protection statements as appropriate. We do not accept any responsibility for content or data usage by external websites linked on this site.
-
-By using our website, you consent to our Privacy Policy and agree to its terms.
-
+If you still have concerns about your personal data, please contact us at datenschutz@rosenpass.eu  
+We are a research project with limited ressources and can't always reply super fast. Please give us a few days before you file a complaint with the responsible Data Protection Autorities!
 
 {{< /blocks/section >}}
 
 {{< blocks/section  color="white" >}}
 
 ## Datenschutzerklärung
+
+Bei der informatorischen Nutzung unserer Website, also der bloßen Betrachtung ohne eine Registrierung und ohne dass Sie uns anderweitig Informationen mitteilen, verarbeiten wir die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. Die nachfolgend beschriebenen Daten sind für uns technisch erforderlich, um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten und müssen daher von uns verarbeitet werden. Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.
+
+- IP-Adresse
+– Datum und Uhrzeit der Anfrage
+– Zeitzonendifferenz zur Greenwich Mean Time (GMT)
+– Inhalt der Anforderung (besuchte Seite)
+– Zugriffsstatus/HTTP-Statuscode
+– jeweils übertragene Datenmenge
+– vorher besuchte Seite
+– Browser
+– Betriebssystem
+– Sprache und Version der Browsersoftware
 
 ### 1. Datenschutz auf einen Blick
 **Allgemeine Hinweise**
@@ -95,37 +110,34 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Des
 
 **Wie erfassen wir Ihre Daten?**
 
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.
+Bei Ihrer Kontaktaufnahme mit uns per E-Mail oder über ein Kontaktformular werden die von Ihnen mitgeteilten Daten (Ihre E-Mail-Adresse und ggf. z.B. Ihr Name und Vorname, Ihr Unternehmen oder Ihre Telefonnummer) von uns gespeichert, um Ihre Fragen zu bearbeiten. Die in diesem Zusammenhang anfallenden Daten löschen wir, falls die Anfrage einem Vertrag zugeordnet wird, nach den Fristen zur Vertragslaufzeit, ansonsten nachdem die Speicherung nicht mehr erforderlich ist, oder schränken die Verarbeitung ein, falls gesetzliche Aufbewahrungspflichten bestehen.
 
 Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere ITSysteme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
 
 **Wofür nutzen wir Ihre Daten?**
 
 Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.
-Welche Rechte haben Sie bezüglich Ihrer Daten?
-Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
+
+**Welche Rechte haben Sie bezüglich Ihrer Daten?**
+
+Ihre Rechte
+
+1) Sie haben gegenüber einem Verantwortlichen folgende Rechte hinsichtlich der Sie betreffenden
+personenbezogenen Daten:
+– Recht auf Auskunft,
+– Recht auf Berichtigung oder Löschung,
+– Recht auf Einschränkung der Verarbeitung,
+– Recht auf Widerspruch gegen die Verarbeitung,
+– Recht auf Datenübertragbarkeit.
+
+2) Sie haben zudem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten durch uns zu beschweren.
 
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
 
-### 2. Hosting
-Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
+### 2. Hosting													 
+Die Erfassung von Daten durch unseren Hoster erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. 
+Wir haben einen Vertrag über Auftragsverarbeitung (AVV) mit unserem Hoster geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
 
-Servercow
-Anbieter ist die The Infrastructure Company GmbH
-Parkstrasse 42
-47877 Willich (nachfolgend „Servercow“). 
-
-Wenn Sie unsere Website besuchen, erfasst Servercow verschiedene Logfiles inklusive Ihrer IP-Adressen.
-
-Weitere Informationen entnehmen Sie der Datenschutzerklärung von Servercow:
-https://servercow.de/impressum.
-
-Die Verwendung von Servercow erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TTDSG, soweit die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting) im Sinne des TTDSG umfasst. Die Einwilligung ist jederzeit widerrufbar.
-
-#### Auftragsverarbeitung
-
-Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
 ### 3. Allgemeine Hinweise und Pflichtinformationen
 #### Datenschutz
 
@@ -139,16 +151,20 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Kom
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Project Rosenpass
-Karolin Varner
-Box 11685
-Ehrenbergstr. 16a
-10245 Berlin
-Telefon: +49 (0) 1522 916 9045
-E-Mail: impressum@rosenpass.eu
 
-Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.
-entscheidet.
+##### Rosenpass e.V.
+Erste Vorsitzende: **Karolin Varner**
+Zweiter Vorsitzender: **Benjamin Lipp**
+
+vertreten durch 
+**Beata-Konstanze Hubrig**
+Rechtsanwaltskanzlei Hubrig
+Husemannstraße 22
+10435 Berlin
+
+E-Mail: datenschutz@rosenpass.eu
+
+Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä. entscheidet.
 
 #### Speicherdauer
 
@@ -184,8 +200,7 @@ Sie haben das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen
 Hierzu können Sie sich jederzeit an uns wenden. Das Recht auf Einschränkung der Verarbeitung besteht in folgenden Fällen:
 Wenn Sie die Richtigkeit Ihrer bei uns gespeicherten personenbezogenen Daten bestreiten, benötigen wir in der Regel Zeit, um dies zu überprüfen. Für die Dauer der Prüfung haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
 Wenn die Verarbeitung Ihrer personenbezogenen Daten unrechtmäßig geschah/geschieht, können Sie statt der Löschung die Einschränkung der Datenverarbeitung verlangen. Wenn wir Ihre personenbezogenen Daten nicht mehr benötigen, Sie sie jedoch zur Ausübung, Verteidigung oder Geltendmachung von Rechtsansprüchen benötigen, haben Sie das Recht, statt der Löschung die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
-Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen
-überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
+Wenn Sie einen Widerspruch nach Art. 21 Abs. 1 DSGVO eingelegt haben, muss eine Abwägung zwischen Ihren und unseren Interessen vorgenommen werden. Solange noch nicht feststeht, wessen Interessen überwiegen, haben Sie das Recht, die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen.
 Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, dürfen diese Daten – von ihrer Speicherung abgesehen – nur mit Ihrer Einwilligung oder zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
 
 ### 4. Datenerfassung auf dieser Website
@@ -201,7 +216,14 @@ Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von notwe
 TTDSG); die Einwilligung ist jederzeit widerrufbar.
 Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browsers aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein. Welche Cookies und Dienste auf dieser Website eingesetzt werden, können Sie dieser Datenschutzerklärung entnehmen.
 
-Quelle:
+Teilweise Quelle:
 https://www.e-recht24.de
+
+{{< /blocks/section >}}
+
+{{< blocks/section  color="light" >}}
+
+The content of this website is published under a Creative Commons license:
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
 
 {{< /blocks/section >}}
