@@ -5,14 +5,14 @@
 
 @font-face {
   font-family: "Nunito";
-  src: url("/fonts/Nunito/Nunito-VariableFont_wght.ttf")
+  src: url("/fonts/NunitoSans/NunitoSans-VariableFont.ttf")
     format("truetype-variations");
   font-weight: 100 700;
 }
 @font-face {
   font-family: "Nunito";
   font-style: italic;
-  src: url("/fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf")
+  src: url("/fonts/NunitoSans/NunitoSans-Italic-VariableFont.ttf")
     format("truetype-variations");
   font-weight: 100 700;
 }
@@ -98,9 +98,9 @@ a {font-weight:bold;}
 
 .td-box--light p > a { color: var(--bs-link-color); }
 
-.td-box h3 {font-size: 1.5rem; font-weight: bold; margin-bottom:1rem; margin-top:1.5rem;}
+.td-box h3 {font-size: 1.5rem; font-weight: bold;}
 
-.td-box h4 {font-size: 1.2rem; font-weight: bold; margin-bottom:1rem; margin-top:1.5rem;}
+.td-box h4 {font-size: 1.2rem; font-weight: bold;}
 
 .text-xs {font-size:smaller;}
 
@@ -110,6 +110,19 @@ a {font-weight:bold;}
 .title-box-presentation .td-arrow-down::before {  
   bottom: -1.5rem;
 } /* fixes arrow down distance*/
+
+.td-box--primary   		.td-arrow-down::before,
+.td-box--secondary 		.td-arrow-down::before,
+.td-box--gray-dark 		.td-arrow-down::before,
+.td-box--dark	 		.td-arrow-down::before,
+.td-box--gray 			.td-arrow-down::before,
+.td-box--white 			.td-arrow-down::before,
+.td-box--black 			.td-arrow-down::before {
+	bottom: -24px;		
+		}
+			  
+	
+
 
 .block-lead {    padding: 3rem 0; }
 
@@ -205,7 +218,7 @@ a.td-rss-button {
   #main_navbar.collapse:not(.show){
     display: none !important;
   }
-  .navbar.td-navbar {
+  #main_navbar .navbar.td-navbar {
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -2061,8 +2074,13 @@ margin: 0.1rem;
 }
 
 
-.contact-icon {
-  color: var(--bs-gray-800-flip);
+.contact .contact-icon {
+	color: var(--bs-gray-800-flip);
+    padding-top:3rem;
+	padding-bottom:3rem;
+	height: 3rem;
+  
+
 }
 
 a:has(.github-svg){
@@ -2104,25 +2122,15 @@ a:has(.github-svg){
 }
 
 #main-contributors {
-  padding-top: 2rem;
+  padding-top: 0rem;
   padding-bottom: 0rem;
 }
 
 #main-contributors .member {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: var(--bs-body-bg);
 }
-
-#main-contributors .member:nth-child(even) {
-  background-color: var(--bs-light);
-}
-[data-bs-theme="dark"]{
-  #main-contributors .member:nth-child(even) {
-    background-color: var(--bs-gray-800);
-  }
-}
-
 
 #main-contributors .contribution {
   text-align: center;
@@ -2152,6 +2160,7 @@ a:has(.github-svg){
   display: contents;
 }
 
+
 @media (min-width: 768px) {
   #main-contributors .contribution {
     text-align: center;
@@ -2164,31 +2173,42 @@ a:has(.github-svg){
     margin-left: auto;
     margin-right: auto;
   }
-  #main-contributors .member {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
+
 }
+
+@media (max-width: 991px) {
+
+	#main-contributors .member:nth-child(even) {
+	  background-color: var(--bs-light);
+	}
+	[data-bs-theme="dark"]{
+	  #main-contributors .member:nth-child(even) {
+		background-color: var(--bs-gray-800);
+	  }
+	}
+}
+
 
 @media(min-width: 992px) and (max-width:1200px){
   #main-contributors .member{
-    background-color: var(--bs-body-bg) !important;
+    background-color: var(--bs-body-bg) ;
   }
 
   #main-contributors .member:nth-child(4n-2),
   #main-contributors .member:nth-child(4n-1){
-    background-color: var(--bs-light) !important;
+    background-color: var(--bs-light) ;
   }
-  [data-bs-theme="dark"]{
+[data-bs-theme="dark"]{
     #main-contributors .member:nth-child(4n-2),
-    #main-contributors .member:nth-child(4n-1) {
-      background-color: var(--bs-gray-800) !important;
-    }
+    #main-contributors .member:nth-child(4n-1) 
+	{ background-color: var(--bs-gray-800); }
   }
 }
+
+
 @media(min-width: 1200px){
   #main-contributors .member:last-child:nth-child(odd):not(:nth-child(3n)){
-    background-color: var(--bs-light) !important;
+    background-color: var(--bs-light);
     margin-left: auto;
     margin-right: auto;
   }
@@ -2205,7 +2225,7 @@ a:has(.github-svg){
   }
   [data-bs-theme="dark"]{
     #main-contributors .member:last-child:nth-child(odd):not(:nth-child(3n)) {
-      background-color: var(--bs-gray-800) !important;
+      background-color: var(--bs-gray-800);
     }
   }
 }
@@ -2549,3 +2569,13 @@ iframe.portrait {
 }
     
 .download-button a {  color: var(--bs-white) !important; }
+
+/* explain it like... */
+#explainitlike, #explainitlikeContent {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+  }
+#explainitlikeContent .tab-pane{
+	padding: 1em;
+}
