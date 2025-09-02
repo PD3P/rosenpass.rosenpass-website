@@ -39,6 +39,8 @@ div.row ol li {
   margin-right: auto;
 }
 
+button { margin-right:0.5rem; margin-bottom:0.5rem; }
+button a { color: unset; }
 
 
 @media (min-width: 768px) {
@@ -432,7 +434,7 @@ li.dropdown-section a:hover{
 [data-bs-theme="dark"]{
   .dropdown:has(.dropdown-menu.nest-ul):hover,
   .dropdown:has(.dropdown-menu.nest-ul.show) {
-    background-color: var(--bs-secondary-bg);
+  background-color: var(--bs-secondary-bg);}
 
     .dropdown-menu {
       background-color: var(--bs-secondary-bg);
@@ -2345,14 +2347,10 @@ img.rp-supporter {
 	align-items: center;
 	justify-content: space-around;
 	flex-direction:column;
-	padding-top:0;
-	padding-bottom:0;
-	margin-top:-3rem;
-	margin-bottom:-2rem;
 }
 
 .eli5-image {
-max-width: 80vw;
+max-width: 100%;
 align-self: center;
 }
 
@@ -2363,7 +2361,7 @@ align-self: center;
 		flex-direction:row;
 	}
 	.eli5-image {
-		max-width: 25vw;
+		max-width: 30%;
 	}
 }
 
@@ -2571,11 +2569,81 @@ iframe.portrait {
 .download-button a {  color: var(--bs-white) !important; }
 
 /* explain it like... */
+
+#eli5 {
+	margin-bottom: 2.5rem;
+}
+
 #explainitlike, #explainitlikeContent {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
   }
-#explainitlikeContent .tab-pane{
-	padding: 1em;
+  
+#explainitlike {align-items: flex-end;}
+
+#explainitlike .nav-link:hover, #explainitlike .nav-link:focus {
+	 border-color: white;
+	 border-bottom:none;
+	 }
+	 
+	[data-bs-theme="dark"]{
+		#explainitlike .nav-link:hover, #explainitlike .nav-link:focus {
+			border-color: var(--bs-gray-600);
+		}
+	}
+	
+	
+
+#explainitlike .nav-item{ height:100%;}
+	
+#explainitlike .nav-link {
+	height:100%;
+	font-weight:bold;
+	color: var(--bs-body-color);	
+	}
+  
+#explainitlikeContent{
+	padding:0;
+	
 }
+	
+#explainitlikeContent .tab-pane{
+	padding: 1rem;
+}
+
+#explainitlikeContent h6{
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 0.5rem 0;
+}
+@media (max-width: 767.98px) {
+	#explainitlike {
+		align-items: stretch;
+		flex-direction: column;
+		margin:0;
+		padding:0;
+		background-color: var(--bs-info);
+		border-bottom: 2px solid var(--bs-info);
+		border-radius: 6px 6px 0 0;
+	}
+	
+	/* dark mode eli5 */
+		[data-bs-theme="dark"]{
+		  #explainitlike {
+			background-color: var(--bs-dark);
+			border-bottom: 2px solid var(--bs-dark);
+
+		  }
+		}
+	
+	#explainitlike .nav-item{
+		width:100%; 
+		margin:0;
+		}
+	
+	#explainitlikeContent {
+		
+	}
+}
+
