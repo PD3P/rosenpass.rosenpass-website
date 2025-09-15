@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Lipp;Benjamin;;;
+FN:Benjamin Lipp
+EMAIL;PREF=1;TYPE=work:blipp@rosenpass.eu
+KEY:OPENPGP4FPR:2C1BCBD2C6D75ADD3E99DF1AC7AB9D1E2A496AA0
+URL;TYPE=work:https://rosenpass.eu/
+TITLE:Vice Director\, Researcher
+ORG:Rosenpass e.V.
+TZ:Europe/Berlin
+UID:e26dff32-0ff6-4715-9223-aa827ab9fe53
+URL:https://rosenpass.eu/keys/blipp@rosenpass.eu.pub
+END:VCARD

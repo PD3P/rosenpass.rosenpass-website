@@ -283,16 +283,16 @@ a.td-rss-button {
   top: 100%;
   margin-top: -0.1rem;
   border: none;
-  background-color: var(--bs-body-bg);
+  background-color: var(--bs-tertiary-bg);
   padding: 0.75rem 0.1rem 0rem 0.1rem;
-  box-shadow: 0.1rem 0.1rem 0.5rem #00000050;
+  box-shadow: 0.1rem 0.5rem 0.5rem #00000050;
 
   li {
     margin-left: 0;
   }
 
   a {
-    color: var(--bs-link-color);
+    color: var(--bs-primary);
     font-weight: bold;
     text-wrap: wrap;
     min-width: 210px;
@@ -324,11 +324,19 @@ a.td-rss-button {
 .dropdown .dropdown-menu.nest-ul.show:has(.dropdown-section) {
   grid-template-columns: repeat(2, auto);
   grid-auto-flow: row dense;
-
-  li.unnested {
-    margin-top: 1rem;
-  }
 }
+
+
+.nest-ul li.unnested {
+	border-radius: 3px;
+	margin: 0.3rem;
+}
+.nest-ul li:has(>a.nested) {
+	border-radius: 3px;
+	margin: 0.3rem;
+}
+
+
 .nest-ul a.active {
   color: var(--bs-dropdown-link-active-bg) !important;
   background-color: inherit;
@@ -383,14 +391,18 @@ li.dropdown-section a:hover{
   padding-right: calc(0px - var(--bs-navbar-nav-link-padding-x)) !important;
 }
 
+/* .nav-item:has(> .active) { */
+  /* background-color: var(--bs-tertiary-bg); */
+  /* border-radius: 3px; */
+/* } */
+
   /* Box shadow management */
 .dropdown:has(.dropdown-menu.nest-ul):hover,
 .dropdown:has(.dropdown-menu.nest-ul.show) {
-  background-color: var(--bs-body-bg);
-  box-shadow: 0.1rem 0.1rem 0.5rem #00000050;
-
-  button.dropdown-toggle,
-  a.nav-link {
+  background-color: var(--bs-tertiary-bg);
+  border-radius: 3px;
+  box-shadow: 0.1rem 0.5rem 0.5rem 0.1rem #00000050;
+	button.dropdown-toggle, a.nav-link {
     z-index: 1002;
     background-color: inherit;
   }
@@ -429,6 +441,10 @@ li.dropdown-section a:hover{
     }
   }
 }
+
+.nest-ul li.unnested {background-color: var(--bs-body-bg);}
+.nest-ul li:has(>a.nested) {background-color: var(--bs-body-bg);}
+
 
   /* Dark Mode Navbar */
 [data-bs-theme="dark"]{
@@ -1684,6 +1700,28 @@ font-weight: inherit;
     justify-content: center;
     }
 }
+
+/* latest posts */
+
+.latest-posts a {	color: unset;}
+.latest-posts h4 {	color: var(--bs-primary);}
+
+.latest-post {
+	background-color: var(--bs-light); 
+	border-radius: 1rem;
+    min-height: 12rem;
+	text-align: center;
+	padding: 2rem;
+	align-content: center;
+}
+
+[data-bs-theme="dark"]{
+ .latest-post {
+    background-color: var(--bs-secondary-bg);
+  }
+}
+
+
 /* man-pages */
 
 main:has(.man-page-section) .block-lead{
@@ -2126,6 +2164,8 @@ a:has(.github-svg){
 #main-contributors {
   padding-top: 0rem;
   padding-bottom: 0rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #main-contributors .member {
@@ -2147,11 +2187,6 @@ a:has(.github-svg){
   margin: 5px 0;
   margin-left: auto;
   margin-right: auto;
-}
-
-.easteregg-ff7900:hover{
-  transition: all 0.5s;
-  color: #ff7900;
 }
 
 .member .row {
@@ -2191,7 +2226,7 @@ a:has(.github-svg){
 }
 
 
-@media(min-width: 992px) and (max-width:1200px){
+@media(min-width: 992px){
   #main-contributors .member{
     background-color: var(--bs-body-bg) ;
   }
@@ -2207,30 +2242,6 @@ a:has(.github-svg){
   }
 }
 
-
-@media(min-width: 1200px){
-  #main-contributors .member:last-child:nth-child(odd):not(:nth-child(3n)){
-    background-color: var(--bs-light);
-    margin-left: auto;
-    margin-right: auto;
-  }
-  #main-contributors .member:last-child:nth-child(even){
-    margin-left: 0;
-    margin-right: auto;
-  }
-
-  #main-contributors .contribution {
-    width: 100%;
-  }
-  #main-contributors .infoblock {
-    width: 100%;
-  }
-  [data-bs-theme="dark"]{
-    #main-contributors .member:last-child:nth-child(odd):not(:nth-child(3n)) {
-      background-color: var(--bs-gray-800);
-    }
-  }
-}
 
 .row:has(.codethanks-blerb) {
   flex-direction: column;
