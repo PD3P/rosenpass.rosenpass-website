@@ -137,6 +137,7 @@ Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit
 ### 2. Hosting													 
 Die Erfassung von Daten durch unseren Hoster erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website. 
 Wir haben einen Vertrag über Auftragsverarbeitung (AVV) mit unserem Hoster geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+Mehr dazu hier: https://flokinet.is/privacy
 
 ### 3. Allgemeine Hinweise und Pflichtinformationen
 #### Datenschutz
