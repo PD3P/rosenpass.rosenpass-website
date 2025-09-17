@@ -1,0 +1,13 @@
+EGIN:VCARD
+VERSION:4.0
+N:Schmidt;Lisa;;;
+FN:Lisa Schmidt
+EMAIL;PREF=1;TYPE=work:mullana@rosenpass.eu
+KEY:OPENPGP4FPR:B521DDF7AED0A94CEDB638BA8377435F2C17E314
+TITLE:Science Communicator\, Illustrator
+ORG:Rosenpass e.V.
+URL;TYPE=work:https://rosenpass.eu/
+UID:e0d4c5c0-f1ee-4541-8a3f-0e477bd78813
+URL:https://rosenpass.eu/keys/mullana@rosenpass.eu.pub
+TZ:Europe/Berlin
+END:VCARD
